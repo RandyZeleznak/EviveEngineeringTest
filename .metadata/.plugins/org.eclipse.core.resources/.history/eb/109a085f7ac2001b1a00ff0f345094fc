@@ -1,0 +1,10 @@
+package com.zsquared.ordering.menu;
+
+public class Menu {
+
+	public void printIt() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

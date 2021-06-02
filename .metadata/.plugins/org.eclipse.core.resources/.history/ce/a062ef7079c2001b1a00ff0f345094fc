@@ -1,0 +1,11 @@
+package com.zsquared.ordering;
+
+import com.zsquared.ordering.menu.Menu;
+
+public class Lunch extends Menu {
+	
+	public void printIt() {
+		System.out.println("Breakfast Module");
+	}
+
+}

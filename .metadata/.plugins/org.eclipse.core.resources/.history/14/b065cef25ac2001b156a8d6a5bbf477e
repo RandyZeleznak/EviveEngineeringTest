@@ -1,0 +1,17 @@
+package com.zsquared.ordering;
+
+import java.util.Scanner;
+
+public class MenuOrderingSystem {
+
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		console.useDelimiter("\\D");
+		System.out.print("Enter menu order : ");
+		String userInput = console.nextLine();
+		String menu = console.next(userInput); 
+		String order = console.next(userInput);
+		System.out.println(menu + order);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.zsquared.ordering.menu;
+
+public class Breakfast extends Menu {
+	
+	public void printIt(String order) {
+		String [] tokens = order.split(",");
+		System.out.println("Breakfast Module " + tokens[0]+ " - " + tokens[1]+ " - " +tokens[2]);
+	}
+
+}

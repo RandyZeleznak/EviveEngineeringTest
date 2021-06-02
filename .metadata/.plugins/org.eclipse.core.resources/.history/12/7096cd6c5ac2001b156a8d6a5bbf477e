@@ -1,0 +1,15 @@
+package com.zsquared.ordering;
+
+import java.util.Scanner;
+
+public class MenuOrderingSystem {
+
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		System.out.print("Enter menu order : ");
+		String  userInput = console.nextLine();
+		System.out.println(userInput);
+
+	}
+
+}

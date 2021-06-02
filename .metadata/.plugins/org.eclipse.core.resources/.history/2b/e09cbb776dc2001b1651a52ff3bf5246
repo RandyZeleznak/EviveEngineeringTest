@@ -1,0 +1,33 @@
+package com.zsquared.ordering;
+
+import java.util.Scanner;
+
+import com.zsquared.ordering.menu.Breakfast;
+import com.zsquared.ordering.menu.Menu;
+
+public class MenuOrderingSystem {
+
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		console.useDelimiter("\\D");
+		System.out.print("Enter menu order : ");
+		
+		String menu = console.next(); 
+		String order = console.next();
+		System.out.println(menu + order);
+		
+		
+		switch(menu) {
+		case "Breakfast":
+			Menu menu1 = new Breakfast();
+			break;
+		default:
+			System.out.println("Not valid menu");
+		}
+		
+		menu.printIt();
+		
+	}
+
+}
+
